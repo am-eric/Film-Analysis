@@ -1,4 +1,4 @@
-# Movie Analysis
+# Box Office Film Analysis
 
 ## Table of Contents
 - [Introduction](#introduction)

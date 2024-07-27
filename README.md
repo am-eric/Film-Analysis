@@ -1,5 +1,5 @@
 # Film Production Analysis
-![alt text](images/pic10.JPEG)
+![alt text](images/pic2.jpg)
 
 ## Overview
 - **Project Goal:** To analyze film data to provide actionable insights for a new movie studio aiming to enter the market and produce successful films.

@@ -69,5 +69,5 @@ If PDF file presentation fails to open, access the slides [here](https://www.can
 2. Install Dependencies by running `pip install -r requirements.txt` to install necessary Python packages.
 3. Navigate to the project directory.
 4. Launch Jupyter Notebook by running jupyter notebook in the terminal.
-5. Open the `film_production_analysis.ipynb` notebook.
+5. Open the `analysis.ipynb` notebook.
 6. Follow the instructions and execute the cells in the notebook to replicate the analysis steps.

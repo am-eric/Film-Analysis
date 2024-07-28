@@ -62,7 +62,7 @@ For Tableau highlights and visualization of the analysis, refer to this [Movie A
 - Certain genres consistently receive high audience ratings and box office returns.
 
 ## Presentation
-If PDF file presentation fails to open, access the slides [here](https://www.canva.com/design/DAGMHsKOaUE/-zGn5ouqB3sSGfgH8yqWsg/edit?utm_content=DAGMHsKOaUE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+If PDF file presentation fails to open, access the slides [here](https://www.canva.com/design/DAGMD8A5Qws/dan6vUuT0Ujc0j6fq7w2iQ/edit?utm_content=DAGMD8A5Qws&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 ## How to Use the Project
 1. Clone the repository to your local machine. Use `git clone <repo_url>`

@@ -60,6 +60,6 @@ The analysis utilizes data from the following sources:
 #### Summary of Conclusions
 1. **Seasonal Trends**: Movies released during the summer and holiday seasons tend to perform better at the box office.
 2. **Budget Ranges**: Mid to high-budget films generally have better box office returns, but some low-budget films can also be highly profitable.
-3. **Genre Success**: Action and adventure genres are highly rated and provide significant ROI, while dramas often receive critical acclaim.
+3. **Genre Success**:  Musicals, Horror, and Mystery genres are the most profitable, offering the highest ROI.
 
 By leveraging these insights, the new movie studio can strategically decide on the types of films to produce, ensuring a balance between critical acclaim and financial success.

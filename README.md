@@ -1,58 +1,65 @@
-# Box Office Film Analysis
+# Movie Studio Analysis
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Problem Statement](#problem-statement)
-- [Prerequisites](#prerequisites)
-- [Usage](#usage)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Credits](#credits)
+## Overview
 
-## Introduction
-This analysis aims to offer tactical guidance to the launch of a new movie studio based on trends in movie success. With the entertainment business evolving, more studios and streaming platforms are investing in original content, hence the need to understand what drives the box office. This analysis looks for patterns and trends from several datasets to help the studio make films that should prove to be financially successful.
+This repository contains an analysis aimed at providing tactical guidance to a new movie studio based on trends in movie success. By examining patterns and trends from several datasets, this analysis helps in making informed decisions about the types of films to produce for optimal financial success.
 
-## Problem Statement
-As our company ventures into the movie production industry, it is crucial to understand what types of films are currently performing best at the box office. Our goal is to gather insights that will help our new movie studio create films that are not only critically acclaimed but also financially successful.
+## Business Understanding
 
-## Prerequisites
-Ensure you have the following Python libraries installed:
-+ Python interpreter 
-+ Bash
-+ Jupyter Notebook
-+ Pandas
-+ NumPy
-+ Matplotlib
-+ Seaborn
+### Stakeholder
+The primary stakeholder for this analysis is the new movie studio that our company is establishing.
 
-Install dependencies using `pip install -r requirements.txt` .
+### Key Business Questions
+1. What types of films are currently performing best at the box office?
+2. How do seasonal and monthly trends affect movie releases and their success?
+3. What budget ranges are associated with successful films?
+4. Which genres are highly rated by audiences and critics?
+5. Which genres provide the highest Return on Investment (ROI)?
 
-Make sure the datasets (bom_movie_gross, tmdb_movies, tn_movie_budgets, im.db, rt_movie_info, rt_reviews) are in the appropriate directory or update the notebook paths accordingly.
+## Data Understanding and Analysis
 
-## Usage
-To reproduce the analysis conducted in this project using Jupyter Notebook:
+### Source of Data
+The analysis utilizes data from the following sources:
+- `bom_movie_gross`
+- `tmdb_movies`
+- `tn_movie_budgets`
+- `imdb_movie_basics`
+- `imdb_movie_ratings`
+- `rt_movie_info`
+- `rt_reviews`
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Ensure you have Jupyter Notebook installed (`pip install jupyter`).
-4. Launch Jupyter Notebook by running `jupyter notebook` in the terminal.
-5. Open the `film_production_analysis.ipynb` notebook.
-6. Follow the instructions and execute the cells in the notebook to replicate the analysis steps.
+### Description of Data
+- **bom_movie_gross**: Box office gross earnings for movies.
+- **tmdb_movies**: Information about movies from The Movie Database (TMDB).
+- **tn_movie_budgets**: Budget information for movies.
+- **imdb_movie_basics**: Basic information about movies from IMDb.
+- **imdb_movie_ratings**: Ratings for movies from IMDb.
+- **rt_movie_info**: Movie information from Rotten Tomatoes.
+- **rt_reviews**: Reviews and ratings for movies from Rotten Tomatoes.
 
+### Visualizations
 
-## Documentation
-For highlights and visualization of the analysis, refer to:
-1. [Movie Analysis Workbook](https://public.tableau.com/views/MovieAnalysisworkbook_17221011976360/MovieAnalysisDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+#### 1. Seasonal and Monthly Trends
+![Seasonal Trends](https://github.com/am-eric/Film-Analysis/blob/v-notebook/worlwide_gross_seasons.png)
+*Description*: This visualization shows how movie releases and their success vary by season and month. The plot highlights peaks during the summer and holiday seasons, indicating these periods are crucial for box office success.
 
+#### 2. Budget Analysis
+![Budget Analysis](https://github.com/am-eric/Film-Analysis/blob/v-notebook/budget_ranges.png)
+*Description*: This chart investigates the performance of films in different budget ranges. It reveals that mid to high-budget films generally perform better at the box office, though some low-budget films can also be highly profitable.
+
+#### 3. Genre Analysis (Ratings)
+![Genre Ratings](https://github.com/am-eric/Film-Analysis/blob/v-notebook/genre_rating.png)
+*Description*: This graph identifies the genres that are highly rated by audiences and critics.
+
+#### 4. Genre Analysis (ROI)
+![Genre ROI](https://github.com/am-eric/Film-Analysis/blob/v-notebook/genre_roi.png)
+*Description*: This graph identifies the genres with the highest ROI, highlighting the financial success of different genres.
 
 ## Conclusion
-By understanding historical box office trends and patterns, the new movie studio can make informed decisions about the types of films to produce, optimizing for both critical acclaim and financial profitability.
 
-## Credits
-This analysis was conducted using the following datasets:
-+ bom_movie_gross
-+ tmdb_movies
-+ tn_movie_budgets
-+ im.db
-+ rt_movie_info
-+ rt_reviews
+### Summary of Conclusions
+1. **Seasonal Trends**: Movies released during the summer and holiday seasons tend to perform better at the box office.
+2. **Budget Ranges**: Mid to high-budget films generally have better box office returns, but some low-budget films can also be highly profitable.
+3. **Genre Success**: Action and adventure genres are highly rated and provide significant ROI, while dramas often receive critical acclaim.
+
+By leveraging these insights, the new movie studio can strategically decide on the types of films to produce, ensuring a balance between critical acclaim and financial success.
